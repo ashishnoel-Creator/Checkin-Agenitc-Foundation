@@ -32,3 +32,17 @@ build/
 # Logs
 *.log
 npm-debug.log*
+
+# Binary docs (we use .md for everything in git)
+*.docx
+*.doc
+*.pdf
+*.xlsx
+*.pptx
+
+# Generator scripts (one-off)
+final-docs/create_*.py
+
+# Git artifacts
+*.patch
+*.bundle
