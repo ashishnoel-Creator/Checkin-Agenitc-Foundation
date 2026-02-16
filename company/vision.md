@@ -21,7 +21,15 @@ Become the Operating System for the Experience Economy: the foundational platfor
 
 ## Values
 
-[TODO: Formalize team values — authenticity, speed, data-driven decisions, venue-first thinking]
+[FOUNDER INPUT NEEDED — All three founders to align on 4–5 core values. Draft below for review:]
+
+1. **Venue-First Thinking.** Every product decision starts with "does this make the venue's life better?" We exist to empower venues, not extract from them.
+2. **Ship and Learn.** Speed over perfection. Get it in front of real venues, measure what happens, iterate. Hypotheses are only worth testing.
+3. **Data Over Intuition.** We push for numbers, not opinions. Every claim in our deck, every product decision, every marketing channel — grounded in real data.
+4. **Own the Relationship.** We build direct, honest relationships — with venues, with diners, with investors. No hiding behind dashboards or masked numbers.
+5. **Play the Long Game.** F&B is our beachhead, not our ceiling. Every technical and strategic decision is made with the platform vision in mind.
+
+*[Edit, add, or remove values based on what resonates with the founding team.]*
 
 ---
 

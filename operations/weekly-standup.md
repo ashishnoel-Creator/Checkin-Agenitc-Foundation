@@ -6,17 +6,17 @@
 
 ### Week of [DATE]
 
-**Ashish (CEO/Builder):**
+**Ashish (Product/Builder):**
 - Done this week:
 - Blocked on:
 - Next week:
 
-**Aravind (Product/Compliance):**
+**Aravind (Product/Compliance/Economy):**
 - Done this week:
 - Blocked on:
 - Next week:
 
-**Shash (Marketing/Growth):**
+**Shash (Marketing/Growth/Positioning):**
 - Done this week:
 - Blocked on:
 - Next week:

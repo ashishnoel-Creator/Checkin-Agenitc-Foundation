@@ -1,13 +1,15 @@
 # Branding Guidelines
 
-> Last synthesized: Feb 15, 2026
+> Last updated: Feb 16, 2026
 
 ## Brand Identity
 
-- **Name:** CheckIn (also styled as "Checkin" in some contexts — standardize to "CheckIn")
+- **Name:** CheckIn (capital C, capital I — always)
 - **Tagline (Primary):** "The Operating System for the Experience Economy"
 - **Tagline (F&B-specific):** "The F&B Experience, Reimagined"
 - **Sub-tagline:** "Gamified Loyalty, Vibrant Communities, Real Venue Growth"
+
+**Naming decision (Feb 16, 2026):** Canonical spelling is "CheckIn" (capital C, capital I). Not "Checkin", "Check-In", or "CHECKIN". All documents standardized.
 
 ## Visual Direction
 
@@ -26,13 +28,27 @@ From pitch deck guidelines:
 
 ## Brand Voice
 
-[TODO: Define brand voice guidelines — how we write, how we speak to venues vs. users vs. investors]
+### For Venues (B2B)
+- **Tone:** Empowering, direct, ROI-focused
+- **Style:** "We give you back control" — partner language, not salesperson language
+- **Avoid:** Jargon, hype, promises without data
+- **Example:** "Own your customer relationships. Track engagement with real data. Grow with tools that work for you, not against you."
+
+### For Users (B2C)
+- **Tone:** Fun, social, rewarding — like a friend who knows the best spots
+- **Style:** Casual, energetic, FOMO-inducing for quests and leaderboards
+- **Avoid:** Corporate language, overly technical explanations
+- **Example:** "Your favorite spots, one app. Earn credits, complete quests, flex on leaderboards."
+
+### For Investors
+- **Tone:** Strategic, data-driven, ambitious but grounded
+- **Style:** Infrastructure and platform language — "engagement OS", "agentic revenue", "data sovereignty"
+- **Avoid:** Consumer-style hype, unsubstantiated claims, overusing "disrupt"
+- **Example:** "We're building the engagement infrastructure for physical-world brands. SaaS + agentic revenue model, not food commissions."
 
 ## Logo & Assets
 
-[TODO: Logo files, usage guidelines, social media templates]
-
-[NEEDS REVIEW] Name standardization needed — "CheckIn" vs. "Checkin" used inconsistently across docs.
+[FOUNDER INPUT NEEDED — Logo files, usage guidelines, social media templates. Current status: in development / not started / completed]
 
 ---
 

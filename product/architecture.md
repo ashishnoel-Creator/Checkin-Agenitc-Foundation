@@ -1,6 +1,6 @@
 # Technical Architecture
 
-> Last synthesized: Feb 15, 2026
+> Last updated: Feb 16, 2026
 
 ## Three-Tiered Architecture
 
@@ -43,20 +43,75 @@ User-owned identity with bank-grade security and transparent privacy controls. F
 Per canonical product overview (Feb 16, 2026):
 
 - **Framework:** Vercel AI SDK 6 + Next.js (AI-native, built for streaming and agent orchestration)
-- **Database:** Supabase (Postgres + real-time + auth + edge functions)
+- **Database:** Supabase (Postgres + real-time subscriptions + auth + edge functions + storage)
 - **Agent Protocol:** MCP (Model Context Protocol) — each venue agent connects to venue-specific data via MCP servers
-- **Models:** Multi-model routing — Haiku for simple tasks, Sonnet for recommendations, Opus for complex campaign strategy
-- **Cost per venue agent:** $4–14/month in inference costs vs ₹3K–15K/month pricing
+- **Models:** Multi-model routing — Haiku for simple tasks (~₹300/venue/month), Sonnet for recommendations (~₹800/venue/month), Opus for complex campaign strategy (on-demand)
+- **Cost per venue agent:** ₹300–1,100/month blended inference cost vs. ₹3K–15K/month pricing = 3–5x margin
 
-[TODO: Hosting, CI/CD, monitoring, deployment pipeline details]
+## Hosting & Deployment
+
+- **Hosting:** Vercel (frontend + API routes + edge functions) + Supabase Cloud (database + auth + real-time)
+- **CI/CD:** GitHub Actions for automated testing and deployment on push to main
+- **Monitoring:** Vercel Analytics (frontend performance) + Supabase Dashboard (database metrics) + custom logging for agent inference costs
+- **Environments:** Development → Staging → Production, with branch previews on Vercel
+- **Domain:** [FOUNDER INPUT NEEDED — primary domain for app and dashboard]
+
+**Why this stack:** Vercel + Supabase = zero DevOps overhead for a 3-person team. Both scale automatically. AI SDK 6 provides native agent orchestration (tool calling, streaming, multi-model routing) without custom infrastructure. MCP protocol means each venue agent is a configuration, not a deployment — adding a new venue = adding a data source, not spinning up a server.
 
 ## POS Integration Strategy
 
-[TODO: Priority POS systems for integration (Petpooja, PosBistro, DotPe). API approach vs. middleware. Timeline.]
+### Priority Order
+
+| POS System | Priority | Market Share (India) | Integration Approach | Timeline |
+|-----------|----------|---------------------|---------------------|----------|
+| **Petpooja** | P0 — First integration | Dominant in Bengaluru indie F&B | REST API (well-documented) | Phase 1B MVP |
+| **PosBistro** | P1 | Growing in premium segment | API available | Post-MVP, Month 3–4 |
+| **DotPe** | P1 | Strong in QR ordering | API + webhook-based | Post-MVP, Month 3–4 |
+| **Posist** | P2 | Enterprise/chain focus | API available | Month 6+ (when chains onboard) |
+
+### Integration Approach
+
+- **Method:** API-first, not middleware. Direct REST API calls from CheckIn backend to POS systems.
+- **Data flow:** CheckIn reads menu items, order history, and bill data from POS. CheckIn writes VC redemptions as discounts/adjustments back to POS.
+- **Fallback:** For POS systems without APIs, manual entry via venue dashboard (staff confirms quest completion, enters bill total). This works for MVP.
+- **Privacy:** Customer data stays in CheckIn. POS integration is read-only for menu/orders, write for VC redemptions only.
 
 ## Data Architecture
 
-[TODO: Data flow diagrams, privacy architecture, analytics pipeline]
+### Core Data Flow
+
+```
+Diner scans QR at venue
+  → Browser app loads (Vercel Edge)
+  → Auth via Supabase (phone OTP or social login)
+  → GPS validation confirms venue presence
+  → Auto-follow: diner profile linked to venue in Community Graph
+  → Active quests loaded from Quest Engine (Supabase real-time)
+  → Diner completes actions (orders, visits, social)
+  → Quest Engine validates completion (POS data or manual confirmation)
+  → Value Engine mints VCs to diner wallet
+  → Venue Dashboard updates in real-time (Supabase subscriptions)
+  → Synapse Engine (AI) analyzes patterns, suggests next quest
+  → AI Agent sends personalized follow-up (if enabled by venue)
+```
+
+### Key Data Entities
+
+| Entity | Storage | Privacy Level |
+|--------|---------|---------------|
+| Diner profiles | Supabase (Postgres) | Venue-owned (visible to venues diner has checked into) |
+| Visit history | Supabase (Postgres) | Venue-owned per venue, aggregated for platform analytics |
+| Quest progress | Supabase (real-time) | Diner-owned, venue can see completion status |
+| Credit balances (VC/GC) | Supabase (Postgres, transactional) | Diner-owned, venue sees circulation metrics |
+| Community graph | Supabase (Postgres) | Platform-level, anonymized for analytics |
+| AI inference logs | Supabase (Postgres) | Platform-internal, used for cost tracking and model improvement |
+
+### Privacy Architecture
+
+- **Venue data sovereignty:** Each venue sees only diners who have checked in at their venue. No cross-venue diner data sharing without diner opt-in.
+- **Diner data portability:** Diners can export their full profile (visit history, credits, preferences) at any time.
+- **Data deletion:** GDPR-aligned right to deletion. Diner can delete profile; venue loses access to that diner's data.
+- **Encryption:** All data encrypted at rest (Supabase default) and in transit (TLS 1.3).
 
 ---
 

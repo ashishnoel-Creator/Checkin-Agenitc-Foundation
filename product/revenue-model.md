@@ -10,22 +10,36 @@
 |------|---------|----------|
 | **Free** | ₹0/month | Basic check-in, limited quests, core leaderboard, basic analytics |
 | **Premium** | ~₹2,000/month | Advanced quest customization, deep analytics, customer segmentation, targeted communication, community management |
-| **Enterprise** | [TODO: Pricing] | Multi-location, advanced CRM, API access, dedicated support |
+| **Enterprise** | ₹8,000–15,000/month per location | Multi-location dashboard, Chain VCs, advanced CRM, API access, dedicated support, custom integrations |
 
 **Plugin Marketplace:** Specialized add-on modules (karaoke, table booking, advanced feedback, event management) drive additional ARPU.
 
 **Value-Added Services (one-time):** Setup assistance, custom QR stands, branded promotional materials.
 
-## Phase 2: Ecosystem Monetization (Months 18+)
+## Phase 2: Ecosystem Monetization — Credit Economy Revenue (Months 18+)
+
+CheckIn's revenue from the credit economy is outcome-based — it grows as the economy circulates, not as a flat subscription tax.
 
 ### Revenue Stream Mix
 
-| Stream | Est. Contribution | Margin | Mechanism |
-|--------|------------------|--------|-----------|
-| **Commission Arbitrage** | ~40% | 30–40% | Brands pay for Global Quest campaigns. CheckIn retains margin (e.g., 20%), mints remaining as GC. |
-| **SaaS Fees** | ~30% | ~90% | Monthly subscriptions from venues |
-| **Breakage** | ~20% | 100% | Expired/unredeemed GCs recognized as pure profit (no GST per CBIC Circular 243/37/2024) |
-| **Transaction Fees** | ~10% | 1–2% | Standard payment gateway fees on bill payments |
+| Stream | Description | Margin Profile |
+|--------|-------------|----------------|
+| **VC Circulation Fee** | CheckIn takes a % cut each time VCs complete a circulation cycle (earned → redeemed → recirculated) | High margin (~30-40%) |
+| **GC Minting Fee** | When brands fund GC campaigns, CheckIn retains 15-20% as a platform/service fee before minting GCs | Very high margin (~90%) |
+| **GC Redemption Spread** | CheckIn reimburses venues at a rate below face value when GCs are redeemed (e.g., ₹0.85 per GC). The spread is margin. | Moderate margin |
+| **Breakage** | Expired/unredeemed credits = pure revenue for CheckIn. No supply = no GST (per CBIC Circular 243/37/2024) | 100% margin |
+| **Swap Fees** | % cut on GC→VC conversions | High margin |
+| **SaaS Base** | Monthly subscription fees (payable in cash or partially in accumulated VCs) | ~90% margin |
+| **Payment Processing** | If CheckIn provides payment gateway services, per-transaction processing fee applies | Low margin (1-2%) — infrastructure cost recovery |
+
+### Brand-Funded GC Campaign — Unit Economics
+
+Per ₹100 brand spend:
+- ₹20.00 — CheckIn platform fee (captured immediately)
+- ₹54.40 — Venue reimbursements (₹0.85 × 64 GCs redeemed, assuming 80% redemption)
+- ₹9.60 — CheckIn spread on redeemed GCs (₹0.15 × 64)
+- ₹16.00 — Breakage revenue (unredeemed GCs)
+- **Total CheckIn revenue: ₹45.60 per ₹100 brand spend**
 
 ### Future Revenue Streams
 - **Transaction Marketplace:** Commission on event tickets, table bookings, exclusive memberships sold through platform
@@ -53,7 +67,7 @@ Revenue correlates with value delivered. More engagement = more revenue = proof 
 ## Unit Economics
 
 **User LTV:** Projected 3x higher than standard aggregator users due to:
-- Partner Coin lock-in (venue-specific credits can't leave)
+- Venue Credit lock-in (venue-specific credits can't leave)
 - GC sunk cost fallacy (accumulated credits discourage churn)
 - Social graph stickiness (friends on platform create switching costs)
 
@@ -78,7 +92,17 @@ Bengaluru target: ~2,500 premium Gen-Z-focused venues
 
 ## Financial Projections
 
-[TODO: Full P&L model, CAC/LTV analysis, break-even timeline, burn rate projections]
+Full P&L model, unit economics, and burn rate projections are in `fundraise/financials.md`. Key unit economics summary:
+
+| Metric | Estimate | Methodology |
+|--------|----------|-------------|
+| **CAC per venue** | See `fundraise/financials.md` | (RM cost + marketing allocation) / venues onboarded per month |
+| **LTV per venue (Premium)** | ₹2,000 × (1 / churn rate) | Monthly ARPU × expected lifetime |
+| **LTV per venue (with agentic)** | ₹5,000–8,500 × (1 / churn rate) | ARPU grows as AI usage increases |
+| **Gross margin** | >70% target | Revenue minus inference costs (₹300–1,100/venue) and infra |
+| **Payback period** | <6 months target | CAC / Monthly ARPU |
+
+**Agentic ARPU progression** is the key financial story: base SaaS (₹3K) → AI campaigns (₹5K) → full autonomy + plugins (₹8.5K). Revenue grows as AI delivers more value, without proportional cost increase (inference costs scale sub-linearly with usage).
 
 ---
 

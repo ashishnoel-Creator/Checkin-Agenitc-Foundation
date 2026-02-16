@@ -5,7 +5,7 @@
 ## Deck Structure (12 Slides)
 
 ### Slide 1: Title
-- **Headline:** Checkin
+- **Headline:** CheckIn
 - **Tagline:** "The Operating System for the Experience Economy" (primary) / "The F&B Experience, Reimagined" (alternative)
 - **Sub-tagline:** "Setting the New Standard: Gamified Loyalty, Vibrant Communities, Real Venue Growth"
 - **Tone:** Confident, premium, foundational — frames CheckIn as a platform, not a feature
@@ -21,7 +21,7 @@ Three broken silos:
 **Key stat:** Gen-Z trusts friend recommendations 50% more than influencers — yet no platform leverages peer-to-peer social proof.
 
 ### Slide 3: The Solution — "Plugging the Leaks"
-**Headline:** "Checkin: The Unified Platform for F&B Engagement, Loyalty & Community"
+**Headline:** "CheckIn: The Unified Platform for F&B Engagement, Loyalty & Community"
 
 Four pillars:
 1. **From Transaction to Connection** — Venues own customer relationships and data
@@ -34,7 +34,7 @@ CheckIn is a platform ("Powered by CheckIn") where each venue gets a deep, custo
 Dual value proposition: For Venues (own data, auto-follow community, gamified tools, per-venue AI agent) + For Users (unified platform, group quests, instant rewards, cross-venue discovery)
 
 ### Slide 4: Product — "The CheckIn Architecture"
-**Headline:** "The Checkin Ecosystem: Where Venues Thrive & Customers Love to Engage"
+**Headline:** "The CheckIn Ecosystem: Where Venues Thrive & Customers Love to Engage"
 
 Three-tiered stack:
 - **Foundation:** Core OS, Value Engine, Quest Engine, Community Graph
@@ -88,8 +88,13 @@ Three-act narrative:
 
 **Payment Processing:** If CheckIn provides payment gateway services, per-transaction processing fee applies — infrastructure cost recovery, not a food commission.
 
-**Phase 2 — Ecosystem Monetization:**
-- Brand partnership marketplace (brands sponsor quests via GC campaigns)
+**Phase 2 — Credit Economy Revenue (outcome-based, grows as economy circulates):**
+- VC Circulation Fee: % cut per VC circulation cycle (~30-40% margin)
+- GC Minting Fee: 15-20% retained from brand-funded campaigns (~90% margin)
+- GC Redemption Spread: ₹0.85 reimbursement per ₹1 GC redeemed
+- Breakage: expired/unredeemed credits = pure revenue (100% margin, no GST per CBIC Circular 243/37/2024)
+- Swap Fees: % cut on GC→VC conversions
+- **Unit economics: ₹45.60 CheckIn revenue per ₹100 brand spend**
 - Intelligence Layer: premium analytics and AI insights
 - Plugin marketplace revenue
 
@@ -128,11 +133,44 @@ Updated competitive table with Dine-In Programs as separate category:
 | Engagement | Discounts | Discount-driven | Points | Gamified quests, streaks |
 | Intelligence | Platform-level, not shared | None for venue | Basic analytics | Per-venue AI agent |
 
-## Slide Not Yet Written
+### Slide 10b: The Ask
+**Headline:** "Join Us at the Ground Floor"
 
-**Slide 10b: The Ask** [TODO: Funding amount, use of funds, dilution, key milestones the funding unlocks]
+- **Raising:** [FOUNDER INPUT NEEDED — amount from `fundraise/financials.md` Section 1B]
+- **Use of Funds:**
+  - Engineering (~35–40%): Full-stack engineer hire, infrastructure scaling, AI inference costs
+  - Sales & Onboarding (~20–25%): RM hire, venue onboarding materials, QR stands
+  - Marketing (~10–15%): Social campaigns, community events, content
+  - Operations (~15–20%): Founder salaries, travel, co-working
+  - Legal & Compliance (~5%): Incorporation, CA, compliance advisory
+  - Buffer (~10%): Contingency
 
-**Team Slide** [TODO: Founder backgrounds, relevant experience, why this team wins]
+- **What This Funding Unlocks:**
+  1. Phase 1B MVP live with first venue cohort in Koramangala/Indiranagar (Month 2–3)
+  2. 50+ venues onboarded in Bengaluru target clusters (Month 6–8)
+  3. Validated engagement metrics: quest completion >40%, return visit >35%, VC redemption >60% (Month 4–6)
+  4. Seed-stage metrics demonstrated, ready for next raise (Month 12–15)
+
+- **Dilution:** [FOUNDER INPUT NEEDED — target range, typical pre-seed: 10–20%]
+
+### Slide 13: The Team
+**Headline:** "The Team That Gets This Done"
+
+**Ashish — CEO / Product / Builder / Technical Lead**
+[FOUNDER INPUT NEEDED — 1-line bio from `company/team.md`]
+Leads architecture, engineering, product build, and investor relations. Background spans gaming, music venues, and startups.
+
+**Aravind — Product / Compliance / Economy**
+[FOUNDER INPUT NEEDED — 1-line bio from `company/team.md`]
+Designed the dual-credit compliance architecture. Owns legal and regulatory framework for India operations.
+
+**Shash — Marketing / Growth / Positioning**
+[FOUNDER INPUT NEEDED — 1-line bio from `company/team.md`]
+Leads GTM strategy, branding, and user acquisition. Owns influencer playbook and growth metrics.
+
+**Why This Team:** CheckIn requires three things simultaneously — a technically sophisticated AI-native product, a legally compliant dual-credit economy under Indian regulation, and a GTM strategy that wins venue trust. Each founder owns one pillar. [FOUNDER INPUT NEEDED — add shared history, personal connection to the problem, and specific credentials.]
+
+**Hiring Plan (Post-Raise):** Full-stack engineer (Month 1–2) + Relationship Manager (Month 2–3). See `company/team.md` for details.
 
 ---
 

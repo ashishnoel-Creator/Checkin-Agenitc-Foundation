@@ -1,6 +1,6 @@
 # CLAUDE.md — AI Agent Instructions for CheckIn Brain
 
-> Last synthesized: Feb 16, 2026
+> Last updated: Feb 16, 2026
 
 ## What This Repo Is
 
@@ -12,11 +12,11 @@ This is **CheckIn's internal knowledge base** — a structured, version-controll
 
 | Name | Role | Focus Areas |
 |------|------|-------------|
-| **Ashish** | CEO / Builder / Technical Lead | Architecture, engineering, product build, investor relations |
-| **Aravind** | Product / Compliance | Product strategy, regulatory structure, credit system compliance, legal frameworks |
-| **Shash** | Marketing / Growth | GTM strategy, branding, influencer playbook, user acquisition, content |
+| **Ashish** | Product / Builder / Technical Lead | Architecture, engineering, product build, investor relations |
+| **Aravind** | Product / Compliance / Economy | Product strategy, regulatory structure, credit system compliance, legal frameworks |
+| **Shash** | Marketing / Growth / Positioning | GTM strategy, branding, influencer playbook, user acquisition, content, positioning |
 
-**Important:** Ashish is CEO and the primary technical builder. Do not confuse roles.
+**Important:** Ashish is the primary technical builder and product lead. Do not confuse roles.
 
 ## Current Phase
 
@@ -24,6 +24,22 @@ This is **CheckIn's internal knowledge base** — a structured, version-controll
 - **Target:** April 2026 fundraise
 - **Location:** Bengaluru, India (beachhead market)
 - **Status:** Building Phase 1A prototype (full vision demo) and Phase 1B MVP (first deployment slice), conducting customer discovery interviews, refining pitch materials
+
+## Documentation Status (Feb 16, 2026)
+
+**Investor-ready:** Deck outline, elevator pitches, Q&A prep (17+ questions), competitive landscape, credit system, revenue model, architecture, compliance, branding, marketing strategy
+
+**Structure ready — awaiting founder inputs:** Financials (full model framework, needs raw numbers), team bios (template ready, each founder fills their own), runway (derived from financials), investor list (52 investors researched, needs warm intro mapping and live verification)
+
+**Post-raise:** Learnings logs, influencer playbook details, partnership conversations, weekly standups
+
+## Naming Conventions
+
+- **Brand spelling:** "CheckIn" (capital C, capital I) — not "Checkin", "Check-In", or "CHECKIN"
+- **Credit terminology:** "Venue Credits (VC)" — "Partner Coins (PC)" is deprecated
+- **Founder-dependent content:** Marked with `[FOUNDER INPUT NEEDED]` — these are blocking items that require human input
+- **Post-raise items:** Marked with `[POST-RAISE]` or left in Phase 4 files
+- **Source doc references:** Original Google Drive doc names appear in source attribution lines (e.g., "Checkin: Investor Pitch Deck") — these reference the original doc names, not the brand spelling
 
 ## Key Files to Read First
 
@@ -48,7 +64,7 @@ This is **CheckIn's internal knowledge base** — a structured, version-controll
 - **Never delete content** — move deprecated content to `archive/` with a date stamp
 - **Date-stamp all edits** — add "Last updated: [date]" at top of any modified file
 - **Source attribution** — when synthesizing from Google Drive docs, list source doc names at bottom of file
-- **Mark uncertainty** — use `[NEEDS REVIEW]` for anything unverified, `[TODO: content needed]` for gaps
+- **Mark uncertainty** — use `[NEEDS REVIEW]` for anything unverified, `[FOUNDER INPUT NEEDED]` for gaps requiring human input, `[POST-RAISE]` for items deferred until after funding
 
 ### File Format
 - All content files are Markdown (`.md`)

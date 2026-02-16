@@ -13,9 +13,9 @@ This repository is the single source of truth for CheckIn's strategy, product th
 
 ## Team
 
-- **Ashish** — CEO, Builder, Technical Lead
-- **Aravind** — Product, Compliance
-- **Shash** — Marketing, Growth
+- **Ashish** — Product, Builder, Technical Lead
+- **Aravind** — Product, Compliance, Economy
+- **Shash** — Marketing, Growth, Positioning
 
 ## Current Phase
 

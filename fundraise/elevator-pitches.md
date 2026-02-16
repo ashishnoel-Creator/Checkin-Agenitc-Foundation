@@ -4,7 +4,7 @@
 
 ## The Final Elevator Pitch (Locked)
 
-> "Brands have lost the direct connection to their customers in the physical world. Checkin rebuilds that connection. We empower venues with powerful **gamified loyalty** tools to build genuine community, while giving users a single, unified platform to track rewards and connect with all their favorite spots. We are launching with F&B to perfect this model before expanding into all of lifestyle commerce."
+> "Brands have lost the direct connection to their customers in the physical world. CheckIn rebuilds that connection. We empower venues with powerful **gamified loyalty** tools to build genuine community, while giving users a single, unified platform to track rewards and connect with all their favorite spots. We are launching with F&B to perfect this model before expanding into all of lifestyle commerce."
 
 **Why this is the one:**
 - **Dual-sided value:** Explicitly states benefit for both venues ("empower with gamified loyalty tools") and users ("unified platform to track rewards")
@@ -15,13 +15,13 @@
 
 ## Customer-Facing Pitch — "The App Store Pitch" (Short)
 
-> "Tired of juggling separate loyalty apps for every restaurant? Checkin is your single hub for F&B. We bring all your favorite spots together, letting you track rewards, join unique gamified programs, and climb venue leaderboards — all in one place. It's the easiest way to get treated like the regular you deserve to be."
+> "Tired of juggling separate loyalty apps for every restaurant? CheckIn is your single hub for F&B. We bring all your favorite spots together, letting you track rewards, join unique gamified programs, and climb venue leaderboards — all in one place. It's the easiest way to get treated like the regular you deserve to be."
 
 ## Customer-Facing Pitch — "The Imagine If..." Story (Long)
 
 *Narrative format for social media, landing pages, or storytelling contexts:*
 
-> Imagine walking into your favorite spot. You scan a QR code and the venue comes alive on your phone. You see personalized recommendations based on what you've loved before. There's a quest running: "Order for ₹5K and earn 300 venue coins." Your friend just referred someone and they both got bonus credits. You're on a 3-day streak that unlocks a discount tonight. From your table, you request a karaoke song. A live quest pops up: "Table that orders the most tequila gets a free round." And when the bill comes? You split it seamlessly — everyone's credits applied, no awkward math. That's Checkin.
+> Imagine walking into your favorite spot. You scan a QR code and the venue comes alive on your phone. You see personalized recommendations based on what you've loved before. There's a quest running: "Order for ₹5K and earn 300 venue coins." Your friend just referred someone and they both got bonus credits. You're on a 3-day streak that unlocks a discount tonight. From your table, you request a karaoke song. A live quest pops up: "Table that orders the most tequila gets a free round." And when the bill comes? You split it seamlessly — everyone's credits applied, no awkward math. That's CheckIn.
 
 ## Investor Pitch — "Infrastructure" Angle
 
@@ -31,7 +31,7 @@
 
 ## Investor Pitch — "Founder's Insight" Angle
 
-> "My career through gaming, music venues, and startups led to one observation: the physical world is still offline. We're building the platform to fix that. Checkin provides engagement infrastructure connecting users and brands in the real world, transforming transactional spaces into living communities. We prove it in the most demanding space first — F&B — then become the OS for all real-world interaction."
+> "My career through gaming, music venues, and startups led to one observation: the physical world is still offline. We're building the platform to fix that. CheckIn provides engagement infrastructure connecting users and brands in the real world, transforming transactional spaces into living communities. We prove it in the most demanding space first — F&B — then become the OS for all real-world interaction."
 
 **Key phrase to remember:** *"The physical world is still offline."*
 

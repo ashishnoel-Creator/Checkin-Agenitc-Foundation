@@ -140,7 +140,99 @@ Open-ended (5-second silence rule):
 
 ## Interview Findings
 
-[TODO: Populate with actual interview results as they come in. Track: venue name, date, phase-by-phase responses, enthusiasm scores, exact quotes, overall assessment.]
+### How to Log Interviews
+
+After each interview, copy the template below and fill it in. Each entry becomes a data point for `insights.md` synthesis and pitch deck quotes.
+
+---
+
+### Interview Template (Copy for Each Interview)
+
+**Venue:** [Name]
+**Location:** [Neighborhood]
+**Type:** Cafe / Pub / Bar / Restaurant / QSR / Fine Dining
+**Outlets:** Single / Chain / Franchise
+**Date:** [YYYY-MM-DD]
+**Interviewer:** [Name]
+**Duration:** [Minutes]
+
+#### Phase 0: Venue Profile
+- Monthly revenue range: ₹___
+- Operating tenure: ___ years
+- Target demographic: ___
+
+#### Phase 1: Operational Baseline
+- Dine-in vs. delivery split: ___% / ___%
+- New vs. repeat customer ratio: ___%  / ___%
+- Average table value: ₹___
+- Monthly marketing spend: ₹___
+
+#### Phase 2: Aggregator Dilemma
+- % orders via aggregators: ___%
+- Effective commission rate: ___%
+- Can access customer data from aggregators? Yes / No
+- Tried converting aggregator customers to direct? ___
+- Estimated savings if 20% shift to direct: ₹___/month
+
+#### Phase 3: Tech Stack & Data
+- POS system: ___ | Satisfaction: ___ /5
+- Number of disconnected tools: ___
+- Can pull top 20 customers by visit frequency? Yes / No
+- Knows if a regular hasn't visited in 3 weeks? Yes / No
+
+#### Phase 4: Marketing & Acquisition
+- Top 3 channels: ___
+- Can track influencer ROI? Yes / No
+- Biggest challenge getting first-timers to return: ___
+
+#### Phase 5: Loyalty & Retention
+- Has loyalty program? Yes / No
+- If yes: type: ___ | Enrolled: ___% | Active redemption: ___%
+- Monthly loyalty spend: ₹___
+
+#### Phase 6: Concept Validation (Enthusiasm 1–5)
+| Feature | Score | First Reaction (Exact Quote) |
+|---------|-------|------------------------------|
+| Leaderboard | /5 | |
+| Quest System | /5 | |
+| Community Feed | /5 | |
+| AI Agent | /5 | |
+| Venue Credits | /5 | |
+| Cross-Venue Network | /5 | |
+| **Forced Rank #1:** | | |
+
+#### Phase 7: Willingness to Pay
+- Expected monthly fee: ₹___
+- Fixed vs. results-based preference: ___
+- Interest in pilot? Yes / No / Maybe
+- Would refer another venue? Yes / No
+- **"I need this" quote:** ___
+
+#### Phase 8: GTM Services Validation
+- Interest in bundled services? Yes / No
+- Current agency/freelancer spend: ₹___/month
+- Bundle price expectation: ₹___
+- Service priority ranking: ___
+
+#### Phase 9: Open-Ended Highlights
+- If could fix ONE thing about business: ___
+- What they'd need to go independent from aggregators: ___
+- Brand they admire for loyalty: ___
+
+#### Overall Assessment
+- **Enthusiasm score:** ___/5
+- **Pipeline stage:** Prospect / Interested / Committed
+- **Key quotes for pitch deck:**
+  1. ___
+  2. ___
+- **Top insight:** ___
+- **Follow-up action:** ___
+
+---
+
+### Logged Interviews
+
+[FOUNDER INPUT NEEDED — Copy the template above and paste completed interviews below. Target: 15 interviews by mid-March.]
 
 ---
 

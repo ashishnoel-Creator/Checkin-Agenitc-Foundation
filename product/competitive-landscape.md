@@ -57,7 +57,7 @@ No competitor currently combines a unified consumer platform with deep social ga
 - No consumer-facing unified app (B2B only)
 - No social gamification, group quests, or experiential rewards
 
-**CheckIn Opportunity:** Partner Coin system functions as standalone B2B loyalty tool (like Petpooja) even before the global network forms — allows market entry venue-by-venue.
+**CheckIn Opportunity:** Venue Credit system functions as standalone B2B loyalty tool (like Petpooja) even before the global network forms — allows market entry venue-by-venue.
 
 ### 3. Global Enterprise Suites (Punchh / Toast / SevenRooms / Antavo)
 
@@ -127,7 +127,7 @@ No competitor currently combines a unified consumer platform with deep social ga
 ### 1. Threat of New Entrants: Moderate to High
 - **Low barrier** for technology (SaaS is easy to build)
 - **High barrier** for network effects (replicating 500+ integrated partners is hard)
-- Cold-start problem mitigated by Partner Coin functioning as standalone B2B loyalty tool
+- Cold-start problem mitigated by Venue Credit functioning as standalone B2B loyalty tool
 
 ### 2. Bargaining Power of Venues: Currently Low, Shifting to Moderate
 - Restaurants are "hostages" to Zomato/Swiggy, paying 25–30% because they can't afford to lose visibility
@@ -144,7 +144,7 @@ No competitor currently combines a unified consumer platform with deep social ga
 - Zomato Gold / Swiggy One: strongest threat (subscription discounts)
 - MagicPin: direct competitor to Global Coin concept
 - EazyDiner Prime: paid reservation + discount access
-- **Differentiation:** None offer venue-specific currencies with venue control over rewards. Partner Coin is the moat.
+- **Differentiation:** None offer venue-specific currencies with venue control over rewards. Venue Credit is the moat.
 
 ### 5. Competitive Rivalry: Intense
 - Zomato/Swiggy dominate 90–95% with huge cash reserves
@@ -154,7 +154,7 @@ No competitor currently combines a unified consumer platform with deep social ga
 
 1. **Network Effects:** Dense venue clusters in target neighborhoods create local network effects
 2. **Data Sovereignty:** Venues retain customer data (vs. aggregators), creating genuine partnership
-3. **Partner Coin Lock-in:** Venue-specific currency prevents leakage — users psychologically committed
+3. **Venue Credit Lock-in:** Venue-specific currency prevents leakage — users psychologically committed
 4. **Community Graph:** Real-world social connections proprietary to platform
 5. **Intelligence Layer:** Unique data from rich venue/user interactions enables insights impossible elsewhere
 
