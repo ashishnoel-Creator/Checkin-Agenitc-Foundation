@@ -43,6 +43,9 @@ npm-debug.log*
 # Generator scripts (one-off)
 final-docs/create_*.py
 
+# Lock files (LibreOffice / Excel)
+.~lock.*
+
 # Git artifacts
 *.patch
 *.bundle
